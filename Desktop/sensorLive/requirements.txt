@@ -1,0 +1,3 @@
+pymongo==4.2.0
+
+-e . //editable mode,when u run requirements.txt file, it will automatically run the setup.py file, so no need to run the command everytime

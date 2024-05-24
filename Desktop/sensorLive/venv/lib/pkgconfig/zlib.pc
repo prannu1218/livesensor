@@ -1,0 +1,13 @@
+prefix=/Users/praneethkumar/Desktop/sensorLive/venv
+exec_prefix=/Users/praneethkumar/Desktop/sensorLive/venv
+libdir=/Users/praneethkumar/Desktop/sensorLive/venv/lib
+sharedlibdir=/Users/praneethkumar/Desktop/sensorLive/venv/lib
+includedir=/Users/praneethkumar/Desktop/sensorLive/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
